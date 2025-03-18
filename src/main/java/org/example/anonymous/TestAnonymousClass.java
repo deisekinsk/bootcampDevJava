@@ -1,6 +1,6 @@
-package org.example.anonyms;
+package org.example.anonymous;
 
-public class TestAnonymsClass {
+public class TestAnonymousClass {
     public static void main(String[] args) {
         AccountWallet wallet = new AccountWallet();
 

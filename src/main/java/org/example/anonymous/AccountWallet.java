@@ -1,4 +1,4 @@
-package org.example.anonyms;
+package org.example.anonymous;
 
 public class AccountWallet {
 
@@ -9,7 +9,7 @@ public class AccountWallet {
         }
     };
 
-
+    //anonymous class
     Account savingsAccount = new Account(){
         @Override
         public void printAccountType() {
