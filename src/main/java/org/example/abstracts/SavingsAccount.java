@@ -1,10 +1,10 @@
-package org.example;
+package org.example.abstracts;
 
 public class SavingsAccount extends Account{
 
 
     @Override
-    public void printExtract() {
+    public void printReport() {
 
         System.out.println("Savings Account");
 

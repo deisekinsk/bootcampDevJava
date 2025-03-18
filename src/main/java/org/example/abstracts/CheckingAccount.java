@@ -1,9 +1,9 @@
-package org.example;
+package org.example.abstracts;
 
 public class CheckingAccount extends  Account{
 
     @Override
-    public void printExtract() {
+    public void printReport() {
         System.out.println("Cheking Account");
 
     }

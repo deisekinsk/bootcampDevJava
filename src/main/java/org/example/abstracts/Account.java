@@ -1,4 +1,4 @@
-package org.example;
+package org.example.abstracts;
 
 public abstract class Account {
 
@@ -13,5 +13,5 @@ public abstract class Account {
         this.balance = balance;
     }
 
-    public abstract void printExtract();
+    public abstract void printReport();
 }
