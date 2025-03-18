@@ -1,6 +1,6 @@
 package org.example.interfaces;
 
-public class ChenkingAccount implements Account{
+public class CheckingAccount implements Account{
 
     private Double balance = 0.0;
     private final Double operationFee = 0.60;
