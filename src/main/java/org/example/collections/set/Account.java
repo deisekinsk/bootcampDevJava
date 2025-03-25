@@ -1,20 +1,16 @@
 package org.example.collections.set;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
-@Data
 @Builder
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Account {
 
     private Long accountNumber;
     private Double balance;
-
-    public Account(long accountNumber, double balance) {
-        this.accountNumber = accountNumber;
-        this.balance = balance;
-    }
-
 
 
     @Override
@@ -23,7 +19,7 @@ public class Account {
     }
 
     @Override
-    public boolean equals (Object obj){
+    public boolean equals(Object obj){
         Account account = (Account) obj;
         //lombok:  getAccountNumber
         return this.accountNumber.equals(account.accountNumber);
